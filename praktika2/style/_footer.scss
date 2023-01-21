@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+    p{
+        font-size: 14px;
+        font-weight: 700;
+        color: #737373;
+    }
+
+    &__post1{
+        display: flex;
+        gap: 15px;
+
+        i{
+            font-size: 20px;
+            color: #96BB7C;
+        }
+    }
+}
+
+@media screen and (max-width:550px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+
+        &__post1{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

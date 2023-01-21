@@ -1,0 +1,117 @@
+.Post-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  
+    h2{
+      padding: 15px 0;
+      font-size: 40px;
+      font-weight: 700;
+    }
+  
+    span{
+      font-size: 14px;
+      font-weight: 700;
+      color:#96BB7C;
+    }
+  
+   p{
+      font-size: 14px;
+      font-weight: 600;
+      color: #737373;
+    }
+  
+    &-for{
+      padding: 50px 0;
+      display: flex;
+  
+      input{
+        width: 600px;
+        padding: 20px;
+        font-weight: 700;
+        background-color:#F9F9F9 ;
+        border: 1px solid #d6d2d2;
+        outline: none;
+      }
+  
+      button{
+        width: 130px;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #96BB7C;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        &:hover{
+          cursor: pointer;
+          background-color: #f11e02;
+          transition: all 0.4s ease;
+        }
+      }
+      
+    }
+  
+  }
+
+ @media screen and (max-width:768px) {
+    .Post-4{
+        h2{
+          font-size: 30px;
+          
+        }
+      
+       p{
+          font-size: 12px;
+          font-weight: 600;
+          color: #737373;
+        }
+      
+        &-for{
+          input{
+            width: 300px;
+            padding: 15px;
+            font-weight: 700;
+            background-color:#F9F9F9 ;
+            border: 1px solid #d6d2d2;
+            outline: none;
+          }
+      
+        button{
+            width: 70px;
+            font-size: 12px;
+            font-weight: 600;
+            background-color: #ff6551;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            &:hover{
+              cursor: pointer;
+              background-color: #f11e02;
+              transition: all 0.4s ease;
+          }
+        }
+          
+      }
+      
+    }
+ }
+
+ @media screen and (max-width:470px) {
+    .Post-4{
+        h2{
+          font-size: 25px;
+          
+        }
+      
+       p{
+          font-size: 9px;
+          font-weight: 600;
+          color: #737373;
+        }
+      
+
+    }
+ }
